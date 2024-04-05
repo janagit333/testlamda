@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Parallel Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="SafariTest(failed)">
-    <parameter name="browser" value="safari"/>
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
     <parameter name="version" value="latest"/>
-    <parameter name="platform" value="macOS Catalina"/>
+    <parameter name="platform" value="Windows 10"/>
     <classes>
-      <class name="Siva_test.TestScenario_3">
+      <class name="Peddaiah1_test.TestScenario_3">
         <methods>
-          <include name="TestScenario3"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="TestScenario3"/>
         </methods>
-      </class> <!-- Siva_test.TestScenario_3 -->
+      </class> <!-- Peddaiah1_test.TestScenario_3 -->
     </classes>
-  </test> <!-- SafariTest(failed) -->
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Parallel Test Suite] -->

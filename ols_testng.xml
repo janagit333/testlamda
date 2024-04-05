@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Rama_test.TestScenario_1"/>
+      <class name="Peddaiah1_test.TestScenario_1"/>
       <class name="com.lambdatest.TestScenario_3"/>
-      <class name="Rama_test.TestScenario_2"/>
+      <class name="Peddaiah1_test.TestScenario_2"/>
       <class name="com.lambdatest.CapturePerformanceMetrics"/>
-      <class name="Rama_test.TestScenario_3"/>
+      <class name="Peddaiah1_test.TestScenario_3"/>
       <class name="com.lambdatest.RelativeLocator"/>
       <class name="com.lambdatest.CDPTestConsole"/>
       <class name="com.lambdatest.InterceptNetwork"/>
